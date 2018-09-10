@@ -19,8 +19,10 @@ La estructura de la función es la siguiente:
 
 **Ejemplo para crear un reporte:**
 
-     result = cp.cube([index_reports],[report_1,report_2])
+```python
+result = cp.cube([index_reports],[report_1,report_2])
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTIzOTk5NTZdfQ==
+eyJoaXN0b3J5IjpbLTY4ODc1NTMyMCwtMTA1MjM5OTk1Nl19
 -->
