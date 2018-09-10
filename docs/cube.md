@@ -12,10 +12,12 @@ La estructura de la función es la siguiente:
 
 **Ejemplos:**
 
-    result = cp.cube([time])
-    result = cp.cube([time,product])
-    result = cp.cube([time,product],[10,20,30,40,50,60,70,80])
-    result = cp.cube([time,product],cp.random)
+```python
+result = cp.cube([time])
+result = cp.cube([time,product])
+result = cp.cube([time,product],[10,20,30,40,50,60,70,80])
+result = cp.cube([time,product],cp.random)
+```
 
 **Ejemplo para crear un reporte:**
 
@@ -24,5 +26,6 @@ result = cp.cube([index_reports],[report_1,report_2])
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODc1NTMyMCwtMTA1MjM5OTk1Nl19
+eyJoaXN0b3J5IjpbLTE5Mjk2MTE5NjYsLTEwNTIzOTk5NTZdfQ
+==
 -->
