@@ -5,7 +5,7 @@
 import cubepy.factory as cp
 ```
  
-#### Create indexes object:
+#### Create index objects:
 ```python
 product = cp.index("product",["Product A","Product B"])
 year = cp.index("year",[2017,2018,2019,2020])
@@ -34,5 +34,5 @@ print(sales)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjEwMjI4Ml19
+eyJoaXN0b3J5IjpbNTA3NDI2NjIxXX0=
 -->
