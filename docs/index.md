@@ -27,12 +27,12 @@ year = cp.index("year",[2017,2018,2019,2020])
 Create quantity cube indexes by product
 
 ```python
-quantity = cp.cube([product],[20,30])
+quantity = cp.cube([product],[10,20])
 ```
 Create prices cube indexes by product & year, fill with random values
 
 ```python
-prices = cp.cube([year,product],cp.random)
+prices = cp.cube([product,year],[[1,2,3,4],[5,6,7,8]] )
 ```
 
 Calculate the sales by product & year
@@ -44,13 +44,13 @@ print(sales)
 
 |  |2017|2018|2019|2020|
 |--|--|--|--|--|
-|Product A|  940|  380|  240|  200|
-|Product B|  650|  2750|  4900| 2550|
+|Product A|  10|  20|  30|  40|
+|Product B|  100|  120|  140| 160|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjkzMzg4NCwxNjE5NTg5NzUsMTU0ND
-AwNjQxLC0xMjY3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3NDQw
-NiwtMTMwMzQwNDUxOCw0NjYyMjQyNjAsOTAxNTM4MDk2LDI2OD
-IxNDYzNl19
+eyJoaXN0b3J5IjpbLTY1ODA1MzAwMCwxMzkyOTMzODg0LDE2MT
+k1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLTI0MzgyMDMy
+OCwxNDIyMTc0NDA2LC0xMzAzNDA0NTE4LDQ2NjIyNDI2MCw5MD
+E1MzgwOTYsMjY4MjE0NjM2XX0=
 -->
