@@ -7,11 +7,14 @@
 
 Install the  `cubepy`  package using pip:
 ```
-pip install mkdocs
+pip install cubepy
 ```
 
+#### Getting Started
+Getting started is super easy:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzQxNjMzNSwtMTI2NzcwNTk2NywtMj
-QzODIwMzI4LDE0MjIxNzQ0MDYsLTEzMDM0MDQ1MTgsNDY2MjI0
-MjYwLDkwMTUzODA5NiwyNjgyMTQ2MzZdfQ==
+eyJoaXN0b3J5IjpbMTU0NDAwNjQxLC0xMjY3NzA1OTY3LC0yND
+M4MjAzMjgsMTQyMjE3NDQwNiwtMTMwMzQwNDUxOCw0NjYyMjQy
+NjAsOTAxNTM4MDk2LDI2ODIxNDYzNl19
 -->
