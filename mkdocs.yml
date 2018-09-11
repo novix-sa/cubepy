@@ -2,8 +2,6 @@ site_name: Cubepy
 site_description: 'Cubepy Docs'
 site_author: 'Novix'
 copyright: 'Copyright &copy; 2018 - Novix'
-repo_url: https://github.com/novix-sa/cubepy/
-
 
 theme:
   name: null
