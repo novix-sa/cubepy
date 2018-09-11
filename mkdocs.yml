@@ -2,16 +2,69 @@ site_name: Cubepy
 site_description: 'Cubepy Docs'
 site_author: 'Novix'
 copyright: 'Copyright &copy; 2018 - Novix'
-theme:
-  name: 'material'
-  palette:
-    primary: 'blue'
-    accent: 'blue'
+repo_url: https://github.com/novix-sa/cubepy/
 
-  # Extensions
+
+theme:
+  name: null
+  custom_dir: material
+  # 404 page
+  static_templates:
+    - 404.html
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: blue
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"    
+
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: http://novix.com
+    - type: github-alt
+      link: https://github.com/novix-sa/cubepy
+
+
+# Extensions
 markdown_extensions:
-  - admonition
-  - codehilite:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
       guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  
 extra_css:
     - css/extra.css
