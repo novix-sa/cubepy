@@ -44,12 +44,12 @@ print(sales)
 
 |  |2017|2018|2019|2020|
 |--|--|--|--|--|
-|Product A|  940|  380|  240|  20|
+|Product A|  940|  380|  240|  200|
 |Product B|  650|  2750|  4900| 2550|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODYxNjc3NCwxNjE5NTg5NzUsMTU0ND
+eyJoaXN0b3J5IjpbMTM5MjkzMzg4NCwxNjE5NTg5NzUsMTU0ND
 AwNjQxLC0xMjY3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3NDQw
 NiwtMTMwMzQwNDUxOCw0NjYyMjQyNjAsOTAxNTM4MDk2LDI2OD
 IxNDYzNl19
