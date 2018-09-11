@@ -10,12 +10,17 @@ Install the  `cubepy`  package using pip:
 pip install cubepy
 ```
 
-### Getting Started
-Getting started is super easy:
 
-Import cubepy factor
+### Getting Started
+
+Import cubepy factory
+```python
+import cubepy.factory as cp
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjEzMzY4NywxNTQ0MDA2NDEsLTEyNj
-c3MDU5NjcsLTI0MzgyMDMyOCwxNDIyMTc0NDA2LC0xMzAzNDA0
-NTE4LDQ2NjIyNDI2MCw5MDE1MzgwOTYsMjY4MjE0NjM2XX0=
+eyJoaXN0b3J5IjpbNTU3Njk2NTU4LDE1NDQwMDY0MSwtMTI2Nz
+cwNTk2NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLTEzMDM0MDQ1
+MTgsNDY2MjI0MjYwLDkwMTUzODA5NiwyNjgyMTQ2MzZdfQ==
 -->
