@@ -45,17 +45,11 @@ print(sales)
 |  |2017|2018|2019|2020|
 |--|--|--|--|--|
 |Product A|  940|  380|  240|  0|
-|Product B|  650|  2750|  4|  |
+|Product B|  650|  2750|  4900| 2550|
 
-
-
-
-
-Cube((Index('product', ['Product A' 'Product B']), Index('year', [2017 2018 2019 2020])), [[ 940  380  240    0]
- [ 650 2750 4900 2550]])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA0MjEwMzcsMTU0NDAwNjQxLC0xMj
-Y3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3NDQwNiwtMTMwMzQw
-NDUxOCw0NjYyMjQyNjAsOTAxNTM4MDk2LDI2ODIxNDYzNl19
+eyJoaXN0b3J5IjpbMTYxOTU4OTc1LDE1NDQwMDY0MSwtMTI2Nz
+cwNTk2NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLTEzMDM0MDQ1
+MTgsNDY2MjI0MjYwLDkwMTUzODA5NiwyNjgyMTQ2MzZdfQ==
 -->
