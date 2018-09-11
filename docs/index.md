@@ -13,7 +13,7 @@ and the dimension *"region"* as:
     time = cp.index(['North','South','Center'])
 
 so that the result can be visualized as:
-
+![Sales](https://drive.google.com/open?id=1liAA60Qs972OTNxOFWQohm3muZCr6oVm)
 
 that aims to bring the labeled data power of  [pandas](http://pandas.pydata.org/)  to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
 
@@ -26,10 +26,10 @@ ep** is a Pthon
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNzY1Mjg2LC0xNDA4NjgzOTYxLDI4MT
-c2NTQ0NiwtNzY1MDY3NTQ1LDkyNTgwOTU4NywxODg4ODM2NDEy
-LC0xNjg4NjUxNjgwLC02NTgwNTMwMDAsMTM5MjkzMzg4NCwxNj
-E5NTg5NzUsMTU0NDAwNjQxLC0xMjY3NzA1OTY3LC0yNDM4MjAz
-MjgsMTQyMjE3NDQwNiwtMTMwMzQwNDUxOCw0NjYyMjQyNjAsOT
-AxNTM4MDk2LDI2ODIxNDYzNl19
+eyJoaXN0b3J5IjpbMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MD
+g2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5NTg3
+LDE4ODg4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMCwxMz
+kyOTMzODg0LDE2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5
+NjcsLTI0MzgyMDMyOCwxNDIyMTc0NDA2LC0xMzAzNDA0NTE4LD
+Q2NjIyNDI2MCw5MDE1MzgwOTYsMjY4MjE0NjM2XX0=
 -->
