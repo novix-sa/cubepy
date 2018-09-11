@@ -24,6 +24,7 @@ result = cp.cube([time,product],cp.random)
 result = cp.cube([index_reports],[report_1,report_2])
 ```
  
+ 
 ## cp.index
 
 Crea un objeto index utilizando la lista de valores.
@@ -49,5 +50,5 @@ result = cp.index(cp.subset(input_data[input_data_cols=='Server']=='dedicated'))
 En este caso la tabla es input_data, la columna con los datos es ‘Server’ y el valor ‘dedicated’.  
 El resultado es el listado de clientes cuyo Servidor es Dedicado.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzgyNjQ5OV19
+eyJoaXN0b3J5IjpbLTQ4MjY3MTA5OSwxOTE3ODI2NDk5XX0=
 -->
