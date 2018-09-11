@@ -27,8 +27,9 @@ Where the *"time"* index is defined as:
 
 Then we can calculate *"Revenue"* as follows:
 
-    revenue = Sa
-
+    Revenue = Sales * Price
+In this case the * operations between cubes is interpreted as follows:
+For all dimensions that are common to each cube
 
 -   individual dimensions (axes) being labeled with meaningful descriptions
 -   labeled 'ticks' along each axis
@@ -36,7 +37,7 @@ Then we can calculate *"Revenue"* as follows:
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI3NDIyODYsMTQ2ODY2MDY3OSw2Nz
+eyJoaXN0b3J5IjpbLTEzNjY4OTExNzksMTQ2ODY2MDY3OSw2Nz
 A3NjUyODYsLTE0MDg2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1
 NDUsOTI1ODA5NTg3LDE4ODg4MzY0MTIsLTE2ODg2NTE2ODAsLT
 Y1ODA1MzAwMCwxMzkyOTMzODg0LDE2MTk1ODk3NSwxNTQ0MDA2
