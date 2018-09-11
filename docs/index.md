@@ -29,7 +29,7 @@ Then we can calculate *"Revenue"* as follows:
 
     Revenue = Sales * Price
 In this case the * operations between cubes is interpreted as follows:
-For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal calculated 
+For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. 
 
 -   individual dimensions (axes) being labeled with meaningful descriptions
 -   labeled 'ticks' along each axis
@@ -37,11 +37,11 @@ For all dimensions that are common to each cube the * mathematical operation is 
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Mjg2ODczMSwxNDY4NjYwNjc5LDY3MD
-c2NTI4NiwtMTQwODY4Mzk2MSwyODE3NjU0NDYsLTc2NTA2NzU0
-NSw5MjU4MDk1ODcsMTg4ODgzNjQxMiwtMTY4ODY1MTY4MCwtNj
-U4MDUzMDAwLDEzOTI5MzM4ODQsMTYxOTU4OTc1LDE1NDQwMDY0
-MSwtMTI2NzcwNTk2NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLT
-EzMDM0MDQ1MTgsNDY2MjI0MjYwLDkwMTUzODA5NiwyNjgyMTQ2
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTIzMjM0NjAzNiwxODcyODY4NzMxLDE0Nj
+g2NjA2NzksNjcwNzY1Mjg2LC0xNDA4NjgzOTYxLDI4MTc2NTQ0
+NiwtNzY1MDY3NTQ1LDkyNTgwOTU4NywxODg4ODM2NDEyLC0xNj
+g4NjUxNjgwLC02NTgwNTMwMDAsMTM5MjkzMzg4NCwxNjE5NTg5
+NzUsMTU0NDAwNjQxLC0xMjY3NzA1OTY3LC0yNDM4MjAzMjgsMT
+QyMjE3NDQwNiwtMTMwMzQwNDUxOCw0NjYyMjQyNjAsOTAxNTM4
+MDk2XX0=
 -->
