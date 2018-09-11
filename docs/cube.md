@@ -1,5 +1,6 @@
 ## cp.cube
-
+ 
+ 222 
 Crea una matriz indexada por uno o más índices permitiendo asignarle un valor a cada elemento de dicho índice.
 
 La estructura de la función es la siguiente:
@@ -26,6 +27,6 @@ result = cp.cube([index_reports],[report_1,report_2])
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk2MTE5NjYsLTEwNTIzOTk5NTZdfQ
-==
+eyJoaXN0b3J5IjpbMjMzMTYwODcwLC0xOTI5NjExOTY2LC0xMD
+UyMzk5OTU2XX0=
 -->
