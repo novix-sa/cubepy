@@ -1,5 +1,3 @@
-## Getting Started
-
 #### Import cubepy factory:
 ```python
 import cubepy.factory as cp
@@ -34,5 +32,5 @@ print(sales)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3NDI2NjIxXX0=
+eyJoaXN0b3J5IjpbMTM5MDg4NjEzMiw1MDc0MjY2MjFdfQ==
 -->
