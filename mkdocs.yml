@@ -1,1 +1,17 @@
-site_name: PyPlan docs
+site_name: Cubepy
+site_description: 'Cubepy Docs'
+site_author: 'Novix'
+copyright: 'Copyright &copy; 2018 - Novix'
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+
+  # Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+extra_css:
+    - css/extra.css
