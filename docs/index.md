@@ -16,7 +16,10 @@ and the dimension *"region"* as:
 so that the result can be visualized as:
 ![Sales](https://drive.google.com/open?id=1liAA60Qs972OTNxOFWQohm3muZCr6oVm)
 
-The main goal is providing mathematical operations and functions for easy computing array calculations, leaving to the engine the tasks of realizing array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example:
+The main goal is providing mathematical operations and functions for easy computing array calculations, leaving to the engine the tasks of realizing array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
+Lets suppose we have another cube called:
+
+    Price = cp.cube([product, time
 
 
 
@@ -29,7 +32,7 @@ ep** is a Pthon
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjI2NTU2MiwxNDY4NjYwNjc5LDY3MD
+eyJoaXN0b3J5IjpbLTIzNjcwMDAzNSwxNDY4NjYwNjc5LDY3MD
 c2NTI4NiwtMTQwODY4Mzk2MSwyODE3NjU0NDYsLTc2NTA2NzU0
 NSw5MjU4MDk1ODcsMTg4ODgzNjQxMiwtMTY4ODY1MTY4MCwtNj
 U4MDUzMDAwLDEzOTI5MzM4ODQsMTYxOTU4OTc1LDE1NDQwMDY0
