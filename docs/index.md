@@ -25,20 +25,22 @@ Where the *"time"* index is defined as:
 
     time = cp.index(['2018','2019','2020'])
 
-The goal is to provide a complete set of opepandas-like and pandas-compatible toolkit for analytics on multi-dimensional arrays, rather than the tabular data for which pandas excels. Our approach adopts the  [Common Data Model](http://www.unidata.ucar.edu/software/thredds/current/netcdf-java/CDM)  for self- describing scientific data in widespread use in the Earth sciences:`xarray.Dataset`  is an in-memory representation of a netCDF file.library intended for opera
+Then we can calculate *"Revenue"* as follows:
 
-ep** is a Pthon 
+    revenue = Sa
+
+
 -   individual dimensions (axes) being labeled with meaningful descriptions
 -   labeled 'ticks' along each axis
 -   indexing and slicing by named axis
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTgzOTU4MCwxNDY4NjYwNjc5LDY3MD
-c2NTI4NiwtMTQwODY4Mzk2MSwyODE3NjU0NDYsLTc2NTA2NzU0
-NSw5MjU4MDk1ODcsMTg4ODgzNjQxMiwtMTY4ODY1MTY4MCwtNj
-U4MDUzMDAwLDEzOTI5MzM4ODQsMTYxOTU4OTc1LDE1NDQwMDY0
-MSwtMTI2NzcwNTk2NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLT
-EzMDM0MDQ1MTgsNDY2MjI0MjYwLDkwMTUzODA5NiwyNjgyMTQ2
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDI3NDIyODYsMTQ2ODY2MDY3OSw2Nz
+A3NjUyODYsLTE0MDg2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1
+NDUsOTI1ODA5NTg3LDE4ODg4MzY0MTIsLTE2ODg2NTE2ODAsLT
+Y1ODA1MzAwMCwxMzkyOTMzODg0LDE2MTk1ODk3NSwxNTQ0MDA2
+NDEsLTEyNjc3MDU5NjcsLTI0MzgyMDMyOCwxNDIyMTc0NDA2LC
+0xMzAzNDA0NTE4LDQ2NjIyNDI2MCw5MDE1MzgwOTYsMjY4MjE0
+NjM2XX0=
 -->
