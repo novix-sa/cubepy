@@ -4,25 +4,26 @@ Crea una matriz indexada por uno o más índices permitiendo asignarle un valor 
 
 La estructura de la función es la siguiente:
 
+```python
 result = cp.cube(axes, values=None, broadcast=True, dtype=None)
-
-**Axes:**  lista de axis de la matriz  
-**Values (opcional):**  Lista de valores de la matriz. Puede ser una lista de cubos para crear un reporte.
+```
+**axes:**  lista de axis de la matriz  
+**values (opcional):**  Lista de valores de la matriz. Puede ser una lista de cubos para crear un reporte.
 
 **Ejemplos:**
 
-1.  result = cp.cube([time])
-
-1.  result = cp.cube([time,product])
-
-1.  result = cp.cube([time,product],[10,20,30,40,50,60,70,80])
-
-1.  result = cp.cube([time,product],cp.random)
+```python
+result = cp.cube([time])
+result = cp.cube([time,product])
+result = cp.cube([time,product],[10,20,30,40,50,60,70,80])
+result = cp.cube([time,product],cp.random)
+```
 
 **Ejemplo para crear un reporte:**
-
-1.  result = cp.cube([index_reports],[report_1,report_2])
-2. 
+```python
+result = cp.cube([index_reports],[report_1,report_2])
+```
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mzk1ODI5XX0=
+eyJoaXN0b3J5IjpbODcwNjU3MDBdfQ==
 -->
