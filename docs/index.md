@@ -7,11 +7,15 @@ that aims to bring the labeled data power of  [pandas](http://pandas.pydata.org/
 Our goal is to provide a pandas-like and pandas-compatible toolkit for analytics on multi-dimensional arrays, rather than the tabular data for which pandas excels. Our approach adopts the  [Common Data Model](http://www.unidata.ucar.edu/software/thredds/current/netcdf-java/CDM)  for self- describing scientific data in widespread use in the Earth sciences:`xarray.Dataset`  is an in-memory representation of a netCDF file.library intended for opera
 
 ep** is a Pthon 
-
+-   individual dimensions (axes) being labeled with meaningful descriptions
+-   labeled 'ticks' along each axis
+-   indexing and slicing by named axis
+-   indexing on any axis with the tick labels instead of only integers
+-   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1ODA5NTg3LDE4ODg4MzY0MTIsLTE2OD
-g2NTE2ODAsLTY1ODA1MzAwMCwxMzkyOTMzODg0LDE2MTk1ODk3
-NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLTI0MzgyMDMyOCwxND
-IyMTc0NDA2LC0xMzAzNDA0NTE4LDQ2NjIyNDI2MCw5MDE1Mzgw
-OTYsMjY4MjE0NjM2XX0=
+eyJoaXN0b3J5IjpbLTExNjc2MDEwMyw5MjU4MDk1ODcsMTg4OD
+gzNjQxMiwtMTY4ODY1MTY4MCwtNjU4MDUzMDAwLDEzOTI5MzM4
+ODQsMTYxOTU4OTc1LDE1NDQwMDY0MSwtMTI2NzcwNTk2NywtMj
+QzODIwMzI4LDE0MjIxNzQ0MDYsLTEzMDM0MDQ1MTgsNDY2MjI0
+MjYwLDkwMTUzODA5NiwyNjgyMTQ2MzZdfQ==
 -->
