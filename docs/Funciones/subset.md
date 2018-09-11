@@ -8,7 +8,8 @@ Devuelve una lista de todos los elementos del index para los que  **cube1**  es 
 
 **Ejemplo:**
 
-1.  result = cp.subset(cantidades>0)
+    result = cp.subset(cantidades>0)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwODY2ODU1XX0=
+eyJoaXN0b3J5IjpbLTgwMDgzOTc5MF19
 -->
