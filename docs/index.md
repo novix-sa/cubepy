@@ -13,32 +13,23 @@ pip install cubepy
 
 ### Getting Started
 
-Import cubepy factory
+Import cubepy factory:
 ```python
 import cubepy.factory as cp
 ```
-  
-### Create indexes object
-
-### Create indexes object
-
-In [3]:
-
+ 
+Create indexes object:
+```python
 product = cp.index("product",["Product A","Product B"])
-
 year = cp.index("year",[2017,2018,2019,2020])
+```
 
-In [ ]:
+Create quantity cube indexes by product
 
-### Create quantity cube indexes by product
-
-In [4]:
-
+```python
 quantity = cp.cube([product],[20,50,30])
+```
 
-quantity
-
-Out[4]:
 
 Cube((Index('product', ['Product A' 'Product B']),), [20 50])
 
@@ -70,7 +61,7 @@ Cube((Index('product', ['Product A' 'Product B']), Index('year', [2017 2018 2019
  [ 650 2750 4900 2550]])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc0NjY2ODAsMTU0NDAwNjQxLC0xMj
+eyJoaXN0b3J5IjpbLTE2NTg0NzA0ODksMTU0NDAwNjQxLC0xMj
 Y3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3NDQwNiwtMTMwMzQw
 NDUxOCw0NjYyMjQyNjAsOTAxNTM4MDk2LDI2ODIxNDYzNl19
 -->
