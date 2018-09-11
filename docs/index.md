@@ -1,8 +1,9 @@
 # About Cubepy
 
 **Cubepy** is a Python package intended for operating with multidimensional labeled arrays. A labeled array is an array which dimensions or index are defined by a name.
-This is a 3 dimensional array called "Sales".
-Sales = cp.cube( [products,region,time], 1 )
+This is a 3 dimensional array called "Sales" filled with ones.
+First_cube_of_ones = cp.cube( [products,region,time], 1 )
+
 
 
 that aims to bring the labeled data power of  [pandas](http://pandas.pydata.org/)  to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
@@ -16,10 +17,10 @@ ep** is a Pthon
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg2ODM5NjEsMjgxNzY1NDQ2LC03Nj
-UwNjc1NDUsOTI1ODA5NTg3LDE4ODg4MzY0MTIsLTE2ODg2NTE2
-ODAsLTY1ODA1MzAwMCwxMzkyOTMzODg0LDE2MTk1ODk3NSwxNT
-Q0MDA2NDEsLTEyNjc3MDU5NjcsLTI0MzgyMDMyOCwxNDIyMTc0
-NDA2LC0xMzAzNDA0NTE4LDQ2NjIyNDI2MCw5MDE1MzgwOTYsMj
-Y4MjE0NjM2XX0=
+eyJoaXN0b3J5IjpbMTI2MDM5NzY0LC0xNDA4NjgzOTYxLDI4MT
+c2NTQ0NiwtNzY1MDY3NTQ1LDkyNTgwOTU4NywxODg4ODM2NDEy
+LC0xNjg4NjUxNjgwLC02NTgwNTMwMDAsMTM5MjkzMzg4NCwxNj
+E5NTg5NzUsMTU0NDAwNjQxLC0xMjY3NzA1OTY3LC0yNDM4MjAz
+MjgsMTQyMjE3NDQwNiwtMTMwMzQwNDUxOCw0NjYyMjQyNjAsOT
+AxNTM4MDk2LDI2ODIxNDYzNl19
 -->
