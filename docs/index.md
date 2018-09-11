@@ -29,39 +29,31 @@ Create quantity cube indexes by product
 ```python
 quantity = cp.cube([product],[20,50,30])
 ```
+Create prices cube indexes by product & year, fill with random values
 
-
-Cube((Index('product', ['Product A' 'Product B']),), [20 50])
-
-In [ ]:
-
-### Create prices cube indexes by product & year, fill with random values
-
-In [7]:
-
+```python
 prices = cp.cube([year,product],cp.random)
+```
 
-prices
+Calculate the sales by product & year
 
-print("asdasdasdad")
-
-asdasdasdad
-
-### Calculate the sales by product & year[](http://localhost:8888/notebooks/Test%20Cubepy.ipynb#Calculate-the-sales-by-product-&-year)
-
-In [6]:
-
+```python
 sales = quantity * prices
+```
 
-sales
+|  |  |
+|--|--|
+|  |  |
 
-Out[6]:
+
+
+
 
 Cube((Index('product', ['Product A' 'Product B']), Index('year', [2017 2018 2019 2020])), [[ 940  380  240    0]
  [ 650 2750 4900 2550]])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg0NzA0ODksMTU0NDAwNjQxLC0xMj
-Y3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3NDQwNiwtMTMwMzQw
-NDUxOCw0NjYyMjQyNjAsOTAxNTM4MDk2LDI2ODIxNDYzNl19
+eyJoaXN0b3J5IjpbMjUxNzgxMDkwLDE1NDQwMDY0MSwtMTI2Nz
+cwNTk2NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLTEzMDM0MDQ1
+MTgsNDY2MjI0MjYwLDkwMTUzODA5NiwyNjgyMTQ2MzZdfQ==
 -->
