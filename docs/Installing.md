@@ -8,10 +8,10 @@
 pip install cubepy
 ```
 
-Clone github repo:
+#### Clone github repo:
 ```
 https://github.com/novix-sa/cubepy.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5MTQ2NTc5XX0=
+eyJoaXN0b3J5IjpbLTQ4NTk4MDMxMSwzNjkxNDY1NzldfQ==
 -->
