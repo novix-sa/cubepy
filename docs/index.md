@@ -15,7 +15,11 @@ and the dimension *"region"* as:
 
 so that the result can be visualized as:
 ![Sales](https://drive.google.com/open?id=1liAA60Qs972OTNxOFWQohm3muZCr6oVm)
-Our goal is to provide a pandas-like and pandas-compatible toolkit for analytics on multi-dimensional arrays, rather than the tabular data for which pandas excels. Our approach adopts the  [Common Data Model](http://www.unidata.ucar.edu/software/thredds/current/netcdf-java/CDM)  for self- describing scientific data in widespread use in the Earth sciences:`xarray.Dataset`  is an in-memory representation of a netCDF file.library intended for opera
+
+The main goal is providing operations and functions for
+
+
+The goal is to provide a complete set of opepandas-like and pandas-compatible toolkit for analytics on multi-dimensional arrays, rather than the tabular data for which pandas excels. Our approach adopts the  [Common Data Model](http://www.unidata.ucar.edu/software/thredds/current/netcdf-java/CDM)  for self- describing scientific data in widespread use in the Earth sciences:`xarray.Dataset`  is an in-memory representation of a netCDF file.library intended for opera
 
 ep** is a Pthon 
 -   individual dimensions (axes) being labeled with meaningful descriptions
@@ -24,7 +28,7 @@ ep** is a Pthon
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjYyMTE1NywxNDY4NjYwNjc5LDY3MD
+eyJoaXN0b3J5IjpbMTUyNjIxNzExOCwxNDY4NjYwNjc5LDY3MD
 c2NTI4NiwtMTQwODY4Mzk2MSwyODE3NjU0NDYsLTc2NTA2NzU0
 NSw5MjU4MDk1ODcsMTg4ODgzNjQxMiwtMTY4ODY1MTY4MCwtNj
 U4MDUzMDAwLDEzOTI5MzM4ODQsMTYxOTU4OTc1LDE1NDQwMDY0
