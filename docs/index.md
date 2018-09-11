@@ -10,6 +10,12 @@ Install the  `cubepy`  package using pip:
 pip install cubepy
 ```
 
+Clone github repo:
+```
+https://github.com/novix-sa/cubepy.git
+```
+
+
 
 ### Getting Started
 
@@ -49,8 +55,8 @@ print(sales)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODA1MzAwMCwxMzkyOTMzODg0LDE2MT
-k1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLTI0MzgyMDMy
-OCwxNDIyMTc0NDA2LC0xMzAzNDA0NTE4LDQ2NjIyNDI2MCw5MD
-E1MzgwOTYsMjY4MjE0NjM2XX0=
+eyJoaXN0b3J5IjpbMjE0NDE1NDU1MCwtNjU4MDUzMDAwLDEzOT
+I5MzM4ODQsMTYxOTU4OTc1LDE1NDQwMDY0MSwtMTI2NzcwNTk2
+NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLTEzMDM0MDQ1MTgsND
+Y2MjI0MjYwLDkwMTUzODA5NiwyNjgyMTQ2MzZdfQ==
 -->
