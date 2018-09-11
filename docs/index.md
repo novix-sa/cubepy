@@ -20,6 +20,7 @@ The main goal is providing mathematical operations and functions for easy comput
 Lets suppose we have another cube called:
 
     Price = cp.cube([product, time], [[ 1, 1.1, 1.2], [ 2, 2.1, 2.2],[ 3, 3.1, 3.2]]
+ 
 
 
 
@@ -32,11 +33,11 @@ ep** is a Pthon
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDE3MTQ4NSwxNDY4NjYwNjc5LDY3MD
-c2NTI4NiwtMTQwODY4Mzk2MSwyODE3NjU0NDYsLTc2NTA2NzU0
-NSw5MjU4MDk1ODcsMTg4ODgzNjQxMiwtMTY4ODY1MTY4MCwtNj
-U4MDUzMDAwLDEzOTI5MzM4ODQsMTYxOTU4OTc1LDE1NDQwMDY0
-MSwtMTI2NzcwNTk2NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLT
-EzMDM0MDQ1MTgsNDY2MjI0MjYwLDkwMTUzODA5NiwyNjgyMTQ2
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjA5MDQxMDMsMTQ2ODY2MDY3OSw2Nz
+A3NjUyODYsLTE0MDg2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1
+NDUsOTI1ODA5NTg3LDE4ODg4MzY0MTIsLTE2ODg2NTE2ODAsLT
+Y1ODA1MzAwMCwxMzkyOTMzODg0LDE2MTk1ODk3NSwxNTQ0MDA2
+NDEsLTEyNjc3MDU5NjcsLTI0MzgyMDMyOCwxNDIyMTc0NDA2LC
+0xMzAzNDA0NTE4LDQ2NjIyNDI2MCw5MDE1MzgwOTYsMjY4MjE0
+NjM2XX0=
 -->
