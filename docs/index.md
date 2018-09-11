@@ -39,11 +39,13 @@ Calculate the sales by product & year
 
 ```python
 sales = quantity * prices
+print(sales)
 ```
 
-|  |  |  |  |  |
+|  |2017|2018|2019|2020|
 |--|--|--|--|--|
-|  |  |  |  |  |
+|Product A|  940|  380|  240|  0|
+|Product B|  650|  2750|  4|  |
 
 
 
@@ -53,7 +55,7 @@ Cube((Index('product', ['Product A' 'Product B']), Index('year', [2017 2018 2019
  [ 650 2750 4900 2550]])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzIwOTAzMjAsMTU0NDAwNjQxLC0xMj
+eyJoaXN0b3J5IjpbLTE2MDA0MjEwMzcsMTU0NDAwNjQxLC0xMj
 Y3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3NDQwNiwtMTMwMzQw
 NDUxOCw0NjYyMjQyNjAsOTAxNTM4MDk2LDI2ODIxNDYzNl19
 -->
