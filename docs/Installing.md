@@ -1,5 +1,3 @@
-## Installing Cubepy
-
 **Lorem ipsum** dolor sit amet, consectetur adipiscing elit. Praesent elementum commodo pretium. Nullam bibendum congue sapien in ultricies. Pellentesque nec consequat nulla.
 
 
@@ -13,5 +11,5 @@ pip install cubepy
 https://github.com/novix-sa/cubepy.git
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTk4MDMxMSwzNjkxNDY1NzldfQ==
+eyJoaXN0b3J5IjpbMTU3MzcyNzcyNiwzNjkxNDY1NzldfQ==
 -->
