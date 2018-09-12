@@ -19,13 +19,9 @@ so that the result can be visualized as:
 The main goal is providing mathematical operations and functions for easy computing array calculations, leaving to the engine the tasks of realizing array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
 Lets suppose we have another cube called:
 
-    Price = cp.cube([product, time], [[ 1, 1.1, 1.2], [ 2, 2.1, 2.2],[ 3, 3.1, 3.2])
+    Price = cp.cube([product], [ 1, 2, 3])
 
-Where the *"time"* index is defined as:
-
-    time = cp.index(['2018','2019','2020'])
-
-Then we can calculate *"Revenue"* as follows:
+Later we can calculate *"Revenue"* as follows:
 
     Revenue = Sales * Price
 In this case the * operations between cubes is interpreted as follows:
@@ -37,7 +33,7 @@ For all dimensions that are common to each cube the * mathematical operation is 
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjMwMzk4OCwtMjMyMzQ2MDM2LDE4Nz
+eyJoaXN0b3J5IjpbMTYzOTYxMjcyMywtMjMyMzQ2MDM2LDE4Nz
 I4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5
 NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5NTg3LDE4OD
 g4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMCwxMzkyOTMz
