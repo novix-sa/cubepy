@@ -16,7 +16,7 @@ and the dimension *"region"* as:
 so that the result can be visualized as:
 ![Sales](https://drive.google.com/file/d/1liAA60Qs972OTNxOFWQohm3muZCr6oVm/view?usp=sharing)
 
-The main goal is providing mathematical operations and functions for easy computing array calculations, leaving to the engine the tasks of realizing array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
+The main goal of the calculation engine is providing mathematical operations and functions for easy computing array calculations, leaving to the engine the tasks of realizing array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
 Lets suppose we have another cube called:
 
     Price = cp.cube([product], [ 1, 2, 3])
@@ -35,11 +35,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTY2OTgyMywxMTE5NjEzNzM3LDE0Mz
-IwMzk2NDIsLTIzMjM0NjAzNiwxODcyODY4NzMxLDE0Njg2NjA2
-NzksNjcwNzY1Mjg2LC0xNDA4NjgzOTYxLDI4MTc2NTQ0NiwtNz
-Y1MDY3NTQ1LDkyNTgwOTU4NywxODg4ODM2NDEyLC0xNjg4NjUx
-NjgwLC02NTgwNTMwMDAsMTM5MjkzMzg4NCwxNjE5NTg5NzUsMT
-U0NDAwNjQxLC0xMjY3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3
-NDQwNl19
+eyJoaXN0b3J5IjpbNDUwMDc4NjA4LDE0MjE2Njk4MjMsMTExOT
+YxMzczNywxNDMyMDM5NjQyLC0yMzIzNDYwMzYsMTg3Mjg2ODcz
+MSwxNDY4NjYwNjc5LDY3MDc2NTI4NiwtMTQwODY4Mzk2MSwyOD
+E3NjU0NDYsLTc2NTA2NzU0NSw5MjU4MDk1ODcsMTg4ODgzNjQx
+MiwtMTY4ODY1MTY4MCwtNjU4MDUzMDAwLDEzOTI5MzM4ODQsMT
+YxOTU4OTc1LDE1NDQwMDY0MSwtMTI2NzcwNTk2NywtMjQzODIw
+MzI4XX0=
 -->
