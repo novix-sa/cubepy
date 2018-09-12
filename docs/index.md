@@ -29,13 +29,16 @@ For all dimensions that are common to each cube the * mathematical operation is 
 It is easier to interpret the operation with numbers:
 (insert graph to explain operation)
 ## Understanding Array Operations
-
+### Escalar with array
+### Equally dimensional arrays
+### Operations arrays with different dimensions
+### Operating with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjAzOTY0MiwtMjMyMzQ2MDM2LDE4Nz
-I4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5
-NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5NTg3LDE4OD
-g4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMCwxMzkyOTMz
-ODg0LDE2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLT
-I0MzgyMDMyOCwxNDIyMTc0NDA2LC0xMzAzNDA0NTE4LDQ2NjIy
-NDI2MF19
+eyJoaXN0b3J5IjpbLTE5MzIyMTIyOTUsMTQzMjAzOTY0MiwtMj
+MyMzQ2MDM2LDE4NzI4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUy
+ODYsLTE0MDg2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOT
+I1ODA5NTg3LDE4ODg4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1
+MzAwMCwxMzkyOTMzODg0LDE2MTk1ODk3NSwxNTQ0MDA2NDEsLT
+EyNjc3MDU5NjcsLTI0MzgyMDMyOCwxNDIyMTc0NDA2LC0xMzAz
+NDA0NTE4XX0=
 -->
