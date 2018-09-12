@@ -32,10 +32,10 @@ It is easier to interpret the operation with numbers:
 ## Understanding Array Operations
 ### Escalar with array
 ### Equally dimensional arrays
-### Operations arrays with different dimensions
+### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDk5MzY4MCwxMTE5NjEzNzM3LDE0Mz
+eyJoaXN0b3J5IjpbMTQyMTY2OTgyMywxMTE5NjEzNzM3LDE0Mz
 IwMzk2NDIsLTIzMjM0NjAzNiwxODcyODY4NzMxLDE0Njg2NjA2
 NzksNjcwNzY1Mjg2LC0xNDA4NjgzOTYxLDI4MTc2NTQ0NiwtNz
 Y1MDY3NTQ1LDkyNTgwOTU4NywxODg4ODM2NDEyLC0xNjg4NjUx
