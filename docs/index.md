@@ -27,15 +27,15 @@ Then we can calculate *"Revenue"* as follows:
 In this case the * operations between cubes is interpreted as follows:
 For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. 
 It is easier to interpret the operation with numbers:
-(insert diagram for o
+(insert graph to explain operation)
 ## Understanding Array Operations
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMxNzA4NzMsLTIzMjM0NjAzNiwxOD
-cyODY4NzMxLDE0Njg2NjA2NzksNjcwNzY1Mjg2LC0xNDA4Njgz
-OTYxLDI4MTc2NTQ0NiwtNzY1MDY3NTQ1LDkyNTgwOTU4NywxOD
-g4ODM2NDEyLC0xNjg4NjUxNjgwLC02NTgwNTMwMDAsMTM5Mjkz
-Mzg4NCwxNjE5NTg5NzUsMTU0NDAwNjQxLC0xMjY3NzA1OTY3LC
-0yNDM4MjAzMjgsMTQyMjE3NDQwNiwtMTMwMzQwNDUxOCw0NjYy
-MjQyNjBdfQ==
+eyJoaXN0b3J5IjpbMTQzMjAzOTY0MiwtMjMyMzQ2MDM2LDE4Nz
+I4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5
+NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5NTg3LDE4OD
+g4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMCwxMzkyOTMz
+ODg0LDE2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLT
+I0MzgyMDMyOCwxNDIyMTc0NDA2LC0xMzAzNDA0NTE4LDQ2NjIy
+NDI2MF19
 -->
