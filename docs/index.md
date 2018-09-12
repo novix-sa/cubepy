@@ -21,11 +21,13 @@ Lets suppose we have another cube called:
 
     Price = cp.cube([product], [ 1, 2, 3])
 
-Later we can calculate *"Revenue"* as follows:
+Then we can calculate *"Revenue"* as follows:
 
     Revenue = Sales * Price
 In this case the * operations between cubes is interpreted as follows:
 For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. 
+It is easier to interpret
+
 
 -   individual dimensions (axes) being labeled with meaningful descriptions
 -   labeled 'ticks' along each axis
@@ -33,11 +35,11 @@ For all dimensions that are common to each cube the * mathematical operation is 
 -   indexing on any axis with the tick labels instead of only integers
 -   reduction operations (like .sum, .mean, etc) support named axis arguments instead of only integer indices.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTYxMjcyMywtMjMyMzQ2MDM2LDE4Nz
-I4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5
-NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5NTg3LDE4OD
-g4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMCwxMzkyOTMz
-ODg0LDE2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLT
-I0MzgyMDMyOCwxNDIyMTc0NDA2LC0xMzAzNDA0NTE4LDQ2NjIy
-NDI2MF19
+eyJoaXN0b3J5IjpbLTEyNjYzNTA3MDYsLTIzMjM0NjAzNiwxOD
+cyODY4NzMxLDE0Njg2NjA2NzksNjcwNzY1Mjg2LC0xNDA4Njgz
+OTYxLDI4MTc2NTQ0NiwtNzY1MDY3NTQ1LDkyNTgwOTU4NywxOD
+g4ODM2NDEyLC0xNjg4NjUxNjgwLC02NTgwNTMwMDAsMTM5Mjkz
+Mzg4NCwxNjE5NTg5NzUsMTU0NDAwNjQxLC0xMjY3NzA1OTY3LC
+0yNDM4MjAzMjgsMTQyMjE3NDQwNiwtMTMwMzQwNDUxOCw0NjYy
+MjQyNjBdfQ==
 -->
