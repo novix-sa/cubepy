@@ -11,7 +11,7 @@ pip install cubepy
 https://github.com/novix-sa/cubepy.git
 ```
 
-
+![sample](/files/sample.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDU3MDg1NCw3NzA3MzM4MDRdfQ==
+eyJoaXN0b3J5IjpbLTk0NjExMjE0Niw3NzA3MzM4MDRdfQ==
 -->
