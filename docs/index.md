@@ -16,6 +16,8 @@ and the dimension *"region"* as:
 so that the result can be visualized as:
 ![Sales](https://drive.google.com/file/d/1liAA60Qs972OTNxOFWQohm3muZCr6oVm/view?usp=sharing)
 
+
+
 The main goal of Cubepy is provide mathematical operations and functions for easy computing array calculations, leaving to the calculation engine the tasks of understanding array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
 Lets suppose we have another cube called:
 
@@ -35,11 +37,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzU2NTkyOSwxNDIxNjY5ODIzLDExMT
-k2MTM3MzcsMTQzMjAzOTY0MiwtMjMyMzQ2MDM2LDE4NzI4Njg3
-MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5NjEsMj
-gxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5NTg3LDE4ODg4MzY0
-MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMCwxMzkyOTMzODg0LD
-E2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLTI0Mzgy
-MDMyOF19
+eyJoaXN0b3J5IjpbLTExMjM3MjQyMTksMTI1NzU2NTkyOSwxND
+IxNjY5ODIzLDExMTk2MTM3MzcsMTQzMjAzOTY0MiwtMjMyMzQ2
+MDM2LDE4NzI4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLT
+E0MDg2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5
+NTg3LDE4ODg4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMC
+wxMzkyOTMzODg0LDE2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3
+MDU5NjddfQ==
 -->
