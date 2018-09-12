@@ -3,15 +3,16 @@
 **Cubepy** is a Python package intended for operating with multidimensional labeled arrays. A labeled array is an array which dimensions or indexes are defined by a name.
 This is an example of a 2 dimensional array called *"Sales"* indexed by *"product"* and *"region"*.
 
-`Sales = cp.cube([product, region],[[  1,  2,  3], [ 11, 12, 13], [ 21, 22, 23]])`
-
+```python
+Sales = cp.cube([product, region],[[  1,  2,  3], [ 11, 12, 13], [ 21, 22, 23]])
+```
 In this case the dimension *"product"* is defined as:
-
-    product = cp.index(['Item 1', 'Item 2', 'Item 3'])
-
+```python
+ product = cp.index(['Item 1', 'Item 2', 'Item 3'])
+ ```
 and the dimension *"region"* as:
 
-    time = cp.index(['North','South','Center'])
+time = cp.index(['North','South','Center'])
 
 so that the result can be visualized as:
 ![Sales](https://drive.google.com/file/d/1liAA60Qs972OTNxOFWQohm3muZCr6oVm/view?usp=sharing)
@@ -37,11 +38,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ2MzQ1NzYsMTI1NzU2NTkyOSwxND
-IxNjY5ODIzLDExMTk2MTM3MzcsMTQzMjAzOTY0MiwtMjMyMzQ2
-MDM2LDE4NzI4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLT
-E0MDg2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5
-NTg3LDE4ODg4MzY0MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMC
-wxMzkyOTMzODg0LDE2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3
-MDU5NjddfQ==
+eyJoaXN0b3J5IjpbNDQxNTA4MjI2LC0xMDc0NjM0NTc2LDEyNT
+c1NjU5MjksMTQyMTY2OTgyMywxMTE5NjEzNzM3LDE0MzIwMzk2
+NDIsLTIzMjM0NjAzNiwxODcyODY4NzMxLDE0Njg2NjA2NzksNj
+cwNzY1Mjg2LC0xNDA4NjgzOTYxLDI4MTc2NTQ0NiwtNzY1MDY3
+NTQ1LDkyNTgwOTU4NywxODg4ODM2NDEyLC0xNjg4NjUxNjgwLC
+02NTgwNTMwMDAsMTM5MjkzMzg4NCwxNjE5NTg5NzUsMTU0NDAw
+NjQxXX0=
 -->
