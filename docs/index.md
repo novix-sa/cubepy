@@ -16,7 +16,7 @@ and the dimension *"region"* as:
 so that the result can be visualized as:
 ![Sales](https://drive.google.com/file/d/1liAA60Qs972OTNxOFWQohm3muZCr6oVm/view?usp=sharing)
 
-The main goal of the calculation engine is providing mathematical operations and functions for easy computing array calculations, leaving to the engine the tasks of realizing array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
+The main goal of Cubepy is provide mathematical operations and functions for easy computing array calculations, leaving to the calculation engine the tasks of understanding array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
 Lets suppose we have another cube called:
 
     Price = cp.cube([product], [ 1, 2, 3])
@@ -35,11 +35,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMDc4NjA4LDE0MjE2Njk4MjMsMTExOT
-YxMzczNywxNDMyMDM5NjQyLC0yMzIzNDYwMzYsMTg3Mjg2ODcz
-MSwxNDY4NjYwNjc5LDY3MDc2NTI4NiwtMTQwODY4Mzk2MSwyOD
-E3NjU0NDYsLTc2NTA2NzU0NSw5MjU4MDk1ODcsMTg4ODgzNjQx
-MiwtMTY4ODY1MTY4MCwtNjU4MDUzMDAwLDEzOTI5MzM4ODQsMT
-YxOTU4OTc1LDE1NDQwMDY0MSwtMTI2NzcwNTk2NywtMjQzODIw
-MzI4XX0=
+eyJoaXN0b3J5IjpbMTI1NzU2NTkyOSwxNDIxNjY5ODIzLDExMT
+k2MTM3MzcsMTQzMjAzOTY0MiwtMjMyMzQ2MDM2LDE4NzI4Njg3
+MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5NjEsMj
+gxNzY1NDQ2LC03NjUwNjc1NDUsOTI1ODA5NTg3LDE4ODg4MzY0
+MTIsLTE2ODg2NTE2ODAsLTY1ODA1MzAwMCwxMzkyOTMzODg0LD
+E2MTk1ODk3NSwxNTQ0MDA2NDEsLTEyNjc3MDU5NjcsLTI0Mzgy
+MDMyOF19
 -->
