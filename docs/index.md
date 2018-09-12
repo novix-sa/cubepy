@@ -14,7 +14,7 @@ and the dimension *"region"* as:
     time = cp.index(['North','South','Center'])
 
 so that the result can be visualized as:
-![Sales](https://drive.google.com/open?id=1liAA60Qs972OTNxOFWQohm3muZCr6oVm)
+![Sales](https://drive.google.com/file/d/1liAA60Qs972OTNxOFWQohm3muZCr6oVm/view?usp=sharing)
 
 The main goal is providing mathematical operations and functions for easy computing array calculations, leaving to the engine the tasks of realizing array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
 Lets suppose we have another cube called:
@@ -28,17 +28,18 @@ In this case the * operations between cubes is interpreted as follows:
 For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. 
 It is easier to interpret the operation with numbers:
 (insert graph to explain operation)
+![enter image description here](https://drive.google.com/file/d/17D-2mvTpjc4hnDPj1_M_q6OSFHzaIm4r/view?usp=sharing)
 ## Understanding Array Operations
 ### Escalar with array
 ### Equally dimensional arrays
 ### Operations arrays with different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTYxMzczNywxNDMyMDM5NjQyLC0yMz
-IzNDYwMzYsMTg3Mjg2ODczMSwxNDY4NjYwNjc5LDY3MDc2NTI4
-NiwtMTQwODY4Mzk2MSwyODE3NjU0NDYsLTc2NTA2NzU0NSw5Mj
-U4MDk1ODcsMTg4ODgzNjQxMiwtMTY4ODY1MTY4MCwtNjU4MDUz
-MDAwLDEzOTI5MzM4ODQsMTYxOTU4OTc1LDE1NDQwMDY0MSwtMT
-I2NzcwNTk2NywtMjQzODIwMzI4LDE0MjIxNzQ0MDYsLTEzMDM0
-MDQ1MThdfQ==
+eyJoaXN0b3J5IjpbLTU4MDk5MzY4MCwxMTE5NjEzNzM3LDE0Mz
+IwMzk2NDIsLTIzMjM0NjAzNiwxODcyODY4NzMxLDE0Njg2NjA2
+NzksNjcwNzY1Mjg2LC0xNDA4NjgzOTYxLDI4MTc2NTQ0NiwtNz
+Y1MDY3NTQ1LDkyNTgwOTU4NywxODg4ODM2NDEyLC0xNjg4NjUx
+NjgwLC02NTgwNTMwMDAsMTM5MjkzMzg4NCwxNjE5NTg5NzUsMT
+U0NDAwNjQxLC0xMjY3NzA1OTY3LC0yNDM4MjAzMjgsMTQyMjE3
+NDQwNl19
 -->
