@@ -31,9 +31,8 @@ Then we can calculate *"Revenue"* as follows:
 ```python
 Revenue = Sales * Price
 ```
-
 In this case the * operations between cubes is interpreted as follows:
-For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. 
+For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. The result dimensions is the union 
 It is easier to interpret the operation with numbers:
 (insert graph to explain operation)
 ![enter image description here](https://drive.google.com/file/d/17D-2mvTpjc4hnDPj1_M_q6OSFHzaIm4r/view?usp=sharing)
@@ -43,11 +42,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY3Mjc3MjQsLTM2OTM4NzExMiwtMT
-A3NDYzNDU3NiwxMjU3NTY1OTI5LDE0MjE2Njk4MjMsMTExOTYx
-MzczNywxNDMyMDM5NjQyLC0yMzIzNDYwMzYsMTg3Mjg2ODczMS
-wxNDY4NjYwNjc5LDY3MDc2NTI4NiwtMTQwODY4Mzk2MSwyODE3
-NjU0NDYsLTc2NTA2NzU0NSw5MjU4MDk1ODcsMTg4ODgzNjQxMi
-wtMTY4ODY1MTY4MCwtNjU4MDUzMDAwLDEzOTI5MzM4ODQsMTYx
-OTU4OTc1XX0=
+eyJoaXN0b3J5IjpbMTY2MjU4MjI5MSwtMTYzNjcyNzcyNCwtMz
+Y5Mzg3MTEyLC0xMDc0NjM0NTc2LDEyNTc1NjU5MjksMTQyMTY2
+OTgyMywxMTE5NjEzNzM3LDE0MzIwMzk2NDIsLTIzMjM0NjAzNi
+wxODcyODY4NzMxLDE0Njg2NjA2NzksNjcwNzY1Mjg2LC0xNDA4
+NjgzOTYxLDI4MTc2NTQ0NiwtNzY1MDY3NTQ1LDkyNTgwOTU4Ny
+wxODg4ODM2NDEyLC0xNjg4NjUxNjgwLC02NTgwNTMwMDAsMTM5
+MjkzMzg4NF19
 -->
