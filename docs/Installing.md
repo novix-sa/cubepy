@@ -11,10 +11,9 @@ pip install cubepy
 https://github.com/novix-sa/cubepy.git
 ```
 
-![pynest](http://cubepy.org/files/pynest.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODU3ODk2ODAsMjc5Mzg5Njg2LC05Mz
-YxOTkyNjMsNzcwNzMzODA0XX0=
+eyJoaXN0b3J5IjpbLTEwOTIzMjY5NjgsLTIwODU3ODk2ODAsMj
+c5Mzg5Njg2LC05MzYxOTkyNjMsNzcwNzMzODA0XX0=
 -->
