@@ -21,14 +21,15 @@ The main goal of Cubepy is provide mathematical operations and functions for eas
 Lets suppose we have another cube called:
 
 ```python
-Price = cp.cube([product], [ 1, 2, 3])
+Price = cp.cube([product], [ 2, 3, 4])
 ```
-
+![price](http://cubepy.org/files/price.png)
 Then we can calculate *"Revenue"* as follows:
 
 ```python
 Revenue = Sales * Price
 ```
+![revenue](http://cubepy.org/files/revenue.png)
 In this case the * operations between cubes is interpreted as follows:
 For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. The result dimensions is the union 
 It is easier to interpret the operation with numbers:
@@ -40,11 +41,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc2MTI2NTYsLTc5MzU5NzgzNywxOT
-gxNjQ5NzY1LDE2NjI1ODIyOTEsLTE2MzY3Mjc3MjQsLTM2OTM4
-NzExMiwtMTA3NDYzNDU3NiwxMjU3NTY1OTI5LDE0MjE2Njk4Mj
-MsMTExOTYxMzczNywxNDMyMDM5NjQyLC0yMzIzNDYwMzYsMTg3
-Mjg2ODczMSwxNDY4NjYwNjc5LDY3MDc2NTI4NiwtMTQwODY4Mz
-k2MSwyODE3NjU0NDYsLTc2NTA2NzU0NSw5MjU4MDk1ODcsMTg4
-ODgzNjQxMl19
+eyJoaXN0b3J5IjpbNjc0NjgzNzQ3LC0yMTM3NjEyNjU2LC03OT
+M1OTc4MzcsMTk4MTY0OTc2NSwxNjYyNTgyMjkxLC0xNjM2NzI3
+NzI0LC0zNjkzODcxMTIsLTEwNzQ2MzQ1NzYsMTI1NzU2NTkyOS
+wxNDIxNjY5ODIzLDExMTk2MTM3MzcsMTQzMjAzOTY0MiwtMjMy
+MzQ2MDM2LDE4NzI4Njg3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyOD
+YsLTE0MDg2ODM5NjEsMjgxNzY1NDQ2LC03NjUwNjc1NDUsOTI1
+ODA5NTg3XX0=
 -->
