@@ -17,9 +17,6 @@ region = cp.index('region',['North','South','Center'])
 ```
 so that the "Sales" cube can be visualized as:
 ![Sales](http://cubepy.org/files/sales.png)
-
-![enter image description here](https://drive.google.com/file/d/1liAA60Qs972OTNxOFWQohm3muZCr6oVm)
-
 The main goal of Cubepy is provide mathematical operations and functions for easy computing array calculations, leaving to the calculation engine the tasks of understanding array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
 Lets suppose we have another cube called:
 
@@ -43,11 +40,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjU2NzEwOSwtNzkzNTk3ODM3LDE5OD
-E2NDk3NjUsMTY2MjU4MjI5MSwtMTYzNjcyNzcyNCwtMzY5Mzg3
-MTEyLC0xMDc0NjM0NTc2LDEyNTc1NjU5MjksMTQyMTY2OTgyMy
-wxMTE5NjEzNzM3LDE0MzIwMzk2NDIsLTIzMjM0NjAzNiwxODcy
-ODY4NzMxLDE0Njg2NjA2NzksNjcwNzY1Mjg2LC0xNDA4NjgzOT
-YxLDI4MTc2NTQ0NiwtNzY1MDY3NTQ1LDkyNTgwOTU4NywxODg4
-ODM2NDEyXX0=
+eyJoaXN0b3J5IjpbLTIxMzc2MTI2NTYsLTc5MzU5NzgzNywxOT
+gxNjQ5NzY1LDE2NjI1ODIyOTEsLTE2MzY3Mjc3MjQsLTM2OTM4
+NzExMiwtMTA3NDYzNDU3NiwxMjU3NTY1OTI5LDE0MjE2Njk4Mj
+MsMTExOTYxMzczNywxNDMyMDM5NjQyLC0yMzIzNDYwMzYsMTg3
+Mjg2ODczMSwxNDY4NjYwNjc5LDY3MDc2NTI4NiwtMTQwODY4Mz
+k2MSwyODE3NjU0NDYsLTc2NTA2NzU0NSw5MjU4MDk1ODcsMTg4
+ODgzNjQxMl19
 -->
