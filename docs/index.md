@@ -40,6 +40,7 @@ In this case the * operation between cubes is interpreted as follows:
 For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. The dimensions of the result is the union of dimensions of the operating variables. 
 
 It is easier to interpret the operation with numbers:
+![arra](http://cubepy.org/files/array%20product.png)
 
 ## Understanding Array Operations
 ### Escalar with array
@@ -47,11 +48,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTMzOTc4MjksODcyMjUyNDIwLC0xNj
-c5ODg4NjUzLC0yMTM3NjEyNjU2LC03OTM1OTc4MzcsMTk4MTY0
-OTc2NSwxNjYyNTgyMjkxLC0xNjM2NzI3NzI0LC0zNjkzODcxMT
-IsLTEwNzQ2MzQ1NzYsMTI1NzU2NTkyOSwxNDIxNjY5ODIzLDEx
-MTk2MTM3MzcsMTQzMjAzOTY0MiwtMjMyMzQ2MDM2LDE4NzI4Nj
-g3MzEsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5NjEs
-MjgxNzY1NDQ2XX0=
+eyJoaXN0b3J5IjpbMTA4NzgzNjQsODcyMjUyNDIwLC0xNjc5OD
+g4NjUzLC0yMTM3NjEyNjU2LC03OTM1OTc4MzcsMTk4MTY0OTc2
+NSwxNjYyNTgyMjkxLC0xNjM2NzI3NzI0LC0zNjkzODcxMTIsLT
+EwNzQ2MzQ1NzYsMTI1NzU2NTkyOSwxNDIxNjY5ODIzLDExMTk2
+MTM3MzcsMTQzMjAzOTY0MiwtMjMyMzQ2MDM2LDE4NzI4Njg3Mz
+EsMTQ2ODY2MDY3OSw2NzA3NjUyODYsLTE0MDg2ODM5NjEsMjgx
+NzY1NDQ2XX0=
 -->
