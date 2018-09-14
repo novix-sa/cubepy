@@ -21,7 +21,7 @@ so that the "Sales" cube can be visualized as:
 ![Sales](http://cubepy.org/files/sales.png)
 
 The main goal of Cubepy is provide mathematical operations and functions for easy computing array calculations, leaving to the calculation engine the tasks of understanding array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
-Lets suppose we have another cube called:
+Lets suppose we have another cube called "Price" defined as follows:
 
 ```python
 Price = cp.cube([product], [ 2, 3, 4])
@@ -49,7 +49,7 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjA0MDg1OCw4NzIyNTI0MjAsLTE2Nz
+eyJoaXN0b3J5IjpbMTc3NjAzMTMxOCw4NzIyNTI0MjAsLTE2Nz
 k4ODg2NTMsLTIxMzc2MTI2NTYsLTc5MzU5NzgzNywxOTgxNjQ5
 NzY1LDE2NjI1ODIyOTEsLTE2MzY3Mjc3MjQsLTM2OTM4NzExMi
 wtMTA3NDYzNDU3NiwxMjU3NTY1OTI5LDE0MjE2Njk4MjMsMTEx
