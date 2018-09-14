@@ -16,20 +16,26 @@ and the dimension *"region"* as:
 region = cp.index('region',['North','South','Center'])
 ```
 so that the "Sales" cube can be visualized as:
+
 ![Sales](http://cubepy.org/files/sales.png)
+
 The main goal of Cubepy is provide mathematical operations and functions for easy computing array calculations, leaving to the calculation engine the tasks of understanding array dimensions, aligning them for operating and broadcasting the operations on the corresponding dimensions. The following example illustrates this concept.
 Lets suppose we have another cube called:
 
 ```python
 Price = cp.cube([product], [ 2, 3, 4])
 ```
+
 ![price](http://cubepy.org/files/price.png)
+
 Then we can calculate *"Revenue"* as follows:
 
 ```python
 Revenue = Sales * Price
 ```
+
 ![revenue](http://cubepy.org/files/revenue.png)
+
 In this case the * operations between cubes is interpreted as follows:
 For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. The dimensions of the result is the union of dimensions of the operating variables. 
 It is easier to interpret the operation with numbers:
@@ -41,11 +47,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzk4ODg2NTMsLTIxMzc2MTI2NTYsLT
-c5MzU5NzgzNywxOTgxNjQ5NzY1LDE2NjI1ODIyOTEsLTE2MzY3
-Mjc3MjQsLTM2OTM4NzExMiwtMTA3NDYzNDU3NiwxMjU3NTY1OT
-I5LDE0MjE2Njk4MjMsMTExOTYxMzczNywxNDMyMDM5NjQyLC0y
-MzIzNDYwMzYsMTg3Mjg2ODczMSwxNDY4NjYwNjc5LDY3MDc2NT
-I4NiwtMTQwODY4Mzk2MSwyODE3NjU0NDYsLTc2NTA2NzU0NSw5
-MjU4MDk1ODddfQ==
+eyJoaXN0b3J5IjpbOTk2ODg2OTYzLC0xNjc5ODg4NjUzLC0yMT
+M3NjEyNjU2LC03OTM1OTc4MzcsMTk4MTY0OTc2NSwxNjYyNTgy
+MjkxLC0xNjM2NzI3NzI0LC0zNjkzODcxMTIsLTEwNzQ2MzQ1Nz
+YsMTI1NzU2NTkyOSwxNDIxNjY5ODIzLDExMTk2MTM3MzcsMTQz
+MjAzOTY0MiwtMjMyMzQ2MDM2LDE4NzI4Njg3MzEsMTQ2ODY2MD
+Y3OSw2NzA3NjUyODYsLTE0MDg2ODM5NjEsMjgxNzY1NDQ2LC03
+NjUwNjc1NDVdfQ==
 -->
