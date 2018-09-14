@@ -36,7 +36,7 @@ Revenue = Sales * Price
 
 ![revenue](http://cubepy.org/files/revenue.png)
 
-In this case the * operations between cubes is interpreted as follows:
+In this case the * operation between cubes is interpreted as follows:
 For all dimensions that are common to each cube the * mathematical operation is applied element wise. For all dimensions that are not equal the engine broadcast the operation for the not equal index. The dimensions of the result is the union of dimensions of the operating variables. 
 It is easier to interpret the operation with numbers:
 (insert graph to explain operation)
@@ -47,7 +47,7 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2ODg2OTYzLC0xNjc5ODg4NjUzLC0yMT
+eyJoaXN0b3J5IjpbODcyMjUyNDIwLC0xNjc5ODg4NjUzLC0yMT
 M3NjEyNjU2LC03OTM1OTc4MzcsMTk4MTY0OTc2NSwxNjYyNTgy
 MjkxLC0xNjM2NzI3NzI0LC0zNjkzODcxMTIsLTEwNzQ2MzQ1Nz
 YsMTI1NzU2NTkyOSwxNDIxNjY5ODIzLDExMTk2MTM3MzcsMTQz
