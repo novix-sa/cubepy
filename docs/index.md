@@ -2,7 +2,6 @@
 
 **Cubepy** is a Python package intended for operating with multidimensional labeled arrays. 
 A labeled array is an array which dimensions or indexes are defined by a name.
-
 This is an example of a 2 dimensional array called *"Sales"* indexed by *"product"* and *"region"*.
 
 ```python
@@ -50,11 +49,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDc2ODY2NCw4NzIyNTI0MjAsLTE2Nz
-k4ODg2NTMsLTIxMzc2MTI2NTYsLTc5MzU5NzgzNywxOTgxNjQ5
-NzY1LDE2NjI1ODIyOTEsLTE2MzY3Mjc3MjQsLTM2OTM4NzExMi
-wtMTA3NDYzNDU3NiwxMjU3NTY1OTI5LDE0MjE2Njk4MjMsMTEx
-OTYxMzczNywxNDMyMDM5NjQyLC0yMzIzNDYwMzYsMTg3Mjg2OD
-czMSwxNDY4NjYwNjc5LDY3MDc2NTI4NiwtMTQwODY4Mzk2MSwy
-ODE3NjU0NDZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzc1OTgzNDIsLTg4NDc2ODY2NCw4Nz
+IyNTI0MjAsLTE2Nzk4ODg2NTMsLTIxMzc2MTI2NTYsLTc5MzU5
+NzgzNywxOTgxNjQ5NzY1LDE2NjI1ODIyOTEsLTE2MzY3Mjc3Mj
+QsLTM2OTM4NzExMiwtMTA3NDYzNDU3NiwxMjU3NTY1OTI5LDE0
+MjE2Njk4MjMsMTExOTYxMzczNywxNDMyMDM5NjQyLC0yMzIzND
+YwMzYsMTg3Mjg2ODczMSwxNDY4NjYwNjc5LDY3MDc2NTI4Niwt
+MTQwODY4Mzk2MV19
 -->
