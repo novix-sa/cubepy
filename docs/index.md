@@ -15,9 +15,8 @@ and the dimension *"region"* as:
 ```python
 region = cp.index('region',['North','South','Center'])
 ```
-so that the result can be visualized as:
+so that the "Sales" cube can be visualized as:
 ![Sales](http://cubepy.org/files/sales.png)
-![sales](http://cubepy.org/files/sales.png)
 
 ![enter image description here](https://drive.google.com/file/d/1liAA60Qs972OTNxOFWQohm3muZCr6oVm)
 
@@ -44,11 +43,11 @@ It is easier to interpret the operation with numbers:
 ### Operations with arrays of different dimensions
 ### Operations with arrays and indexes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzU5NzgzNywxOTgxNjQ5NzY1LDE2Nj
-I1ODIyOTEsLTE2MzY3Mjc3MjQsLTM2OTM4NzExMiwtMTA3NDYz
-NDU3NiwxMjU3NTY1OTI5LDE0MjE2Njk4MjMsMTExOTYxMzczNy
-wxNDMyMDM5NjQyLC0yMzIzNDYwMzYsMTg3Mjg2ODczMSwxNDY4
-NjYwNjc5LDY3MDc2NTI4NiwtMTQwODY4Mzk2MSwyODE3NjU0ND
-YsLTc2NTA2NzU0NSw5MjU4MDk1ODcsMTg4ODgzNjQxMiwtMTY4
-ODY1MTY4MF19
+eyJoaXN0b3J5IjpbLTk1NjU2NzEwOSwtNzkzNTk3ODM3LDE5OD
+E2NDk3NjUsMTY2MjU4MjI5MSwtMTYzNjcyNzcyNCwtMzY5Mzg3
+MTEyLC0xMDc0NjM0NTc2LDEyNTc1NjU5MjksMTQyMTY2OTgyMy
+wxMTE5NjEzNzM3LDE0MzIwMzk2NDIsLTIzMjM0NjAzNiwxODcy
+ODY4NzMxLDE0Njg2NjA2NzksNjcwNzY1Mjg2LC0xNDA4NjgzOT
+YxLDI4MTc2NTQ0NiwtNzY1MDY3NTQ1LDkyNTgwOTU4NywxODg4
+ODM2NDEyXX0=
 -->
