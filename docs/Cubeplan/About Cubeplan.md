@@ -6,12 +6,12 @@ In this following sections you will learn how to use the Cubeplan User Guide, th
 
 -   [User Requirements ](/Cubeplan/User%20Requirements/)
 
--   [How to access to Cubeplan](Cubeplan/How%20to%20Access)
+-   [How to Access to Cubeplan](Cubeplan/How%20to%20Access)
    
--   [How to use this manual](Cubeplan/How%20to%20Use)
+-   [How to Use this Manual](Cubeplan/How%20to%20Use)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjE4NDEyLDIyOTQyMjE4MSw3NTc5NT
-cxNzAsNzQwMTUzODAsNTkxNjA3MzA3LC0xNzk0Mjg3NjE4XX0=
-
+eyJoaXN0b3J5IjpbLTE4OTg0NTI3MjQsMjI5NDIyMTgxLDc1Nz
+k1NzE3MCw3NDAxNTM4MCw1OTE2MDczMDcsLTE3OTQyODc2MThd
+fQ==
 -->
